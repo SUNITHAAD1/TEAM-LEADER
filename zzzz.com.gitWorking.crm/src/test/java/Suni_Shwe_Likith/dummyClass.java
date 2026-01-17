@@ -18,6 +18,8 @@ public static void main(String[] args) throws InterruptedException {
 	driver.findElement(By.id("name")).sendKeys("Shwetha");
 	Thread.sleep(2000);
 	driver.close();
+@FindBy(name="user_name")
+private webElement usernameTxt;
 }
 }
 
